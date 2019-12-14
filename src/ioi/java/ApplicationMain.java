@@ -5,7 +5,6 @@
  */
 package ioi.java;
 
-
 /**
 
  @author Conchraidh
@@ -18,7 +17,15 @@ public class ApplicationMain
 	 */
 	public static void main(String[] args)
 	{
+		for(int counter = 1; counter < 50; counter = counter + 1)
+		{
+			System.out.println(counter);
+		}
+		//System.out.println("1");
+		//System.out.println("2");
+		//System.out.println("3");
+		//System.out.println("4");
 		// TODO code application logic here
 	}
-	
+
 }
